@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{article}
+
+\input{misc/packages}
+\input{misc/commands}
+\input{misc/styling}
+\input{misc/global-definitions}
+
+% definitions
+\def\author{Author}
+\def\org{Studiengang}
+\def\title{Titel}
+\def\subtitle{Fach - Aufgabe}
+\def\dateAddr{\DTMdisplaydate{2024}{1}{9}{-1}}
+\def\dateSubm{\DTMtoday}
+\def\abstr{Lorem ipsum}
+
+\begin{document}
+\sffamily
+\allsectionsfont{\sffamily}
+
+\input{textparts/titlepage}
+
+\tableofcontents
+\newpage
+
+% content
+
+\end{document}
