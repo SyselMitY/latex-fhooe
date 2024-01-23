@@ -1,4 +1,9 @@
 \usepackage{helvet}                                   % helvetic as font
+\usepackage[immediate]{silence}
+\WarningFilter[temp]{latex}{Command \underbar  has changed.}
+\WarningFilter[temp]{latex}{Command \underline  has changed.}
+\usepackage{sectsty}                                  % 
+\DeactivateWarningFilters[temp]
 \usepackage{courier}                                  % courier as listing font
 \usepackage{fancyhdr}                                 % header and footer
 \usepackage{a4}                                       % a4 margins
@@ -7,7 +12,6 @@
 \usepackage{color}                                    % background color in listings
 \usepackage{setspace}                                 % line height
 \usepackage{graphicx}                                 % images
-\usepackage{sectsty}                                  % 
 \usepackage{hyperref}                                 % clickable hyperlinks or refs in the document
 \usepackage{float}                                    % 
 \usepackage{pdfpages}                                 % include external pdfs
